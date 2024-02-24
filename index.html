@@ -19,6 +19,9 @@
     </style>
 
     <script>
+        var img1 = document.createElement("img");
+        img1.src = "pikmin.png";
+
         function myFunction() {
             let userInput = document.querySelector("#userInput");
             let message = document.querySelector("#message");
@@ -27,7 +30,7 @@
             }
             else if(userInput.value.toLowerCase()== "andres" || userInput.value.toLowerCase()== "moises"){
                 alert("pikmin");
-                
+                message.innerHTML = "here is a pikmin";
                 
             }
             
