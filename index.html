@@ -25,17 +25,21 @@
         function myFunction() {
             let userInput = document.querySelector("#userInput");
             let message = document.querySelector("#message");
-            if(userInput.value.toLowerCase()== "eli"){
-                alert("cool name cutie<3");
+            if(userInput.value.toLowerCase()== "ipse" | "isabelle"){
+                alert("");
             }
             else if(userInput.value.toLowerCase()== "andres"){
                 alert("pikmin");
                 message.innerHTML = "here is a pikmin" + img1.src;
+                <a href="destination.html">
+                    <button>button style="background-color: blue; color: white; Click Me!</button>
+                </a>
                 
             }
+            else{
+                message.innerHTML = "Welcome to my webpage " + userInput.value;
+            }
             
-            
-            message.innerHTML = "Welcome to my webpage " + userInput.value;
 
         }
 
