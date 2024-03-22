@@ -22,17 +22,17 @@
         function myFunction() {
             let userInput = document.querySelector("#userInput");
             let message = document.querySelector("#message");
-            if(userInput.value.toLowerCase()== "ari" || "arianna" || "arigato"){
+            if(userInput.value.toLowerCase()== "ari" ){
                 alert("ARIGATTOOOOO <3333 ");
                 window.location.replace("birthday.html");
             }
-            else if(userInput.value.toLowerCase()== "andres"|| "moises"){
-                alert("pikmin");
-                window.location.replace("destination.html");
-            }
-            else{
-                message.innerHTML = "Welcome to my webpage " + userInput.value;
-            }
+                else if(userInput.value.toLowerCase()== "andres"|| "moises"){
+                    alert("pikmin");
+                    window.location.replace("destination.html");
+                }
+                    else{
+                        message.innerHTML = "Welcome to my webpage " + userInput.value;
+                    }
         }
 
         
