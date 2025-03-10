@@ -1,0 +1,10 @@
+.header{
+    padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #d299dc; /* green background */
+  color: rgb(87, 70, 90); /* white text color */
+}
+
+.header h1 {
+    font-size: 40px;
+  }
