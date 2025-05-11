@@ -28,10 +28,12 @@ body {
 }
 
 .navbar .logo {
+  
   font-size: 24px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .nav-links {
@@ -73,6 +75,7 @@ body {
 
 /* ========== BUTTON ========== */
 .button {
+  margin-top: 10px;
   background-color: #000;
   color: white;
   padding: 14px 24px;
