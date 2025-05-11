@@ -26,15 +26,12 @@ body {
   padding: 10px 20px;
   align-items: center;
 }
-
+ 
 .navbar .logo {
-  
-  .logo {
     font-family: 'Ingrid Darling', cursive;
     font-size: 32px;
     font-weight: normal; 
     color: rgb(109, 87, 112)
-  }
 }
 
 .nav-links {
