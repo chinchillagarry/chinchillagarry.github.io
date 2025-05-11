@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between; /* Spacing between the logo and the links */
   background-color: #6f6a6a;
-  padding: 15px 20px;
+  padding: 10px 5px;
   align-items: center;
 }
 
