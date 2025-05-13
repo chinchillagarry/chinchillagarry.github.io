@@ -1,14 +1,14 @@
 /* Reset basic styles */
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Sour Gummy", sans-serif;
   background-color: rgb(255, 242, 220);
 }
 
 /* ========== HEADER ========== */
 .header {
   background-color: #938a95;
-  color: rgb(37, 32, 38);
+  color: rgb(68, 65, 68);
   text-align: center;
   padding: 60px 20px 20px;
 }
@@ -64,12 +64,12 @@ body {
 
 .about-me h1 {
   font-size: 36px;
-  color: #333;
+  color: rgb(68, 65, 68);
 }
 
 .about-me p {
   font-size: 18px;
-  color: #555;
+  color: rgb(68, 65, 68);
   max-width: 800px;
   margin: 20px auto;
 }
@@ -94,6 +94,6 @@ body {
 html, body {
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 242, 220); /* Match the about-me section */
-  font-family: 'Inter', sans-serif;
+  background-color: rgb(255, 242, 220); 
+  font-family: "Love Ya Like A Sister", cursive;
 }
