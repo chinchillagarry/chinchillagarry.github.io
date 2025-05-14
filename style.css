@@ -1,8 +1,12 @@
-/* Reset basic styles */
 body {
   margin: 0;
-  font-family: "Sour Gummy", sans-serif;
+  font-family: "Love Ya Like A Sister", cursive;
   background-color: rgb(255, 242, 220);
+}
+
+html {
+  padding: 0;
+  margin: 0;
 }
 
 /* ========== HEADER ========== */
@@ -56,10 +60,11 @@ body {
 
 
 /* ========== ABOUT ME SECTION ========== */
+
 .about-me {
   padding: 50px 20px;
-  text-align: center;
   background-color: rgb(255, 242, 220);
+  text-align: center;
 }
 
 .about-me h1 {
@@ -68,11 +73,38 @@ body {
 }
 
 .about-me p {
+  margin: 10px;
   font-size: 18px;
   color: rgb(68, 65, 68);
   max-width: 800px;
   margin: 20px auto;
+  
 }
+
+/* ========== photos ========== */
+
+
+
+/* ========== captions ========== */
+
+.caption {
+  background-color: rgb(255, 242, 220);
+  text-align: center;
+}
+
+.caption h1 {
+  font-size: 36px;
+  color: rgb(68, 65, 68);
+}
+
+.caption p {
+  font-size: 18px;
+  color: rgb(68, 65, 68);
+  max-width: 800px;
+  margin: 10px auto;
+  padding-bottom: 60px;
+}
+
 
 /* ========== BUTTON ========== */
 .button {
@@ -91,10 +123,21 @@ body {
   background-color: #444;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(255, 242, 220); 
-  font-family: "Love Ya Like A Sister", cursive;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto; /* adds space around and centers the image */
+  padding: 10px; /* optional, adds space inside the image box */
+  box-sizing: border-box;
+}
+
+.image-block {
+  margin-bottom: 40px; /* space between each image section */
 }
