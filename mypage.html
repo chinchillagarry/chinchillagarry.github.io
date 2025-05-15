@@ -16,7 +16,7 @@
     <a href="/mypage.html" class="logo">Angela Salazar</a>
     <div class="nav-links">
       <a href="baking.html">Projects</a>
-      <a href="travel.html">Adventures</a>
+      <a href="travel.html">Resume</a>
       <a href="art.html">Arts & Crafts</a>
     </div>
   </div>
@@ -27,5 +27,53 @@
       <h1>Thank you for visiting my website!</h1>
       <p>My name is Angela Salazar and here is a little bit about who I am. Stay for as long as you’d like, and feel free to contact me and tell me a bit about yourself!</p>
   </div>
+
+  <section class="scrapbook">
+    
+    <div class="photo rotate-right">
+      <img src="louve.JPG" alt="Memory 1" onclick="openLightbox(this)">
+      <p class="caption">professional observer</p>
+    </div>
+    <div class="photo rotate-more">
+      <img src="bubbles.JPG" alt="Memory 2" onclick="openLightbox(this)">
+      <p class="caption">Avid bubble enthusiast</p>
+    </div>
+
+    <div class="photo rotate-left">
+      <img src="family.JPG" alt="Memory 1" onclick="openLightbox(this)">
+      <p class="caption">A fun day with family!</p>
+    </div>
+    <div class="photo rotate-right">
+      <img src="chica.JPG" alt="Memory 2" onclick="openLightbox(this)">
+      <p class="caption">My #1 coding buddy </p>
+    </div>
+
+    <div class="photo rotate-right">
+      <img src="flowers.JPG" alt="Memory 1" onclick="openLightbox(this)">
+      <p class="caption">allergies who?</p>
+    </div>
+
+
+
+    <!-- More photo blocks... -->
+  </section>
+  
+  <!-- Lightbox Overlay -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="">
+  </div>
+  
+  <script>
+    function openLightbox(img) {
+      document.getElementById('lightbox-img').src = img.src;
+      document.getElementById('lightbox').style.display = 'flex';
+    }
+  
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+  </script>
+  
+
 </body>
 </html>
